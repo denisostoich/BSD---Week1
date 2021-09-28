@@ -1,0 +1,214 @@
+header{
+    width: 100%;
+    color: white;
+    text-align: left;
+    margin: 0;
+  }
+body{
+    background-color: white;
+    color: black;
+    font-family: Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    line-height: 25.6px;
+    margin: 0%;
+    width: 100%;
+    }
+h1{
+    font-size: 44px;
+    line-height: 48px;
+    font-family: Helvetica,Arial,sans-serif;
+    font-weight: 500;
+    color: darkgray;
+    width: 600px;
+    margin-top: 1px;
+  }
+h2{
+    font-family: Helvetica,Arial,sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 36px;
+    color: darkgray;
+  }
+article{
+    margin-top: 25px;
+    border-top: 1px solid gray;
+    padding-top: 20px;
+  }
+a{
+    text-decoration: underline;
+    color: black;
+  }
+p{
+    display: block;
+    margin-block-start: 16px;
+    margin-block-end: 16px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    max-width: 600px;
+    color: darkgray;
+    font-size: 16px;
+  }
+ul{
+    font-family: Helvetica,Arial,sans-serif;
+    font-size: 16px;
+  }
+li{
+    list-style: circle;
+  }
+.section1{
+    padding-right: 16px;
+    padding-left: 46px;
+    display: block;
+  }
+.container{
+    width: 100%;
+    overflow: hidden;
+    padding-left: 0;
+    margin: 0%;
+  }
+.container ul{
+    padding: 0;
+  }
+.header{
+    font-family: Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 16px;
+    background: white;
+    border-bottom: 1px solid gray;
+    color: darkgray;
+    padding-left: 46px;
+  }
+.header ul{
+    padding: 0;
+  }
+.header li{
+    padding: white;
+    border-left: 1px black;
+    border-right: 1px black;
+  }
+.header a{
+    color: darkgray;
+    font-size: 12px;
+    text-align: center;
+    border-right: 1px solid gray;
+    padding-left: 28px;
+    padding-right: 28px;
+  }
+.navbar1{
+    margin-left: -16px;
+    padding-right: 16px;
+    padding-left: 16px;
+    font-family: Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 16px;
+    background: white;
+    border-bottom: 1px solid gray;
+    color: darkgray;
+    display: block;
+  }
+.navbar1 li{
+    display:inline;
+  }
+.navbar2{
+    font-family: Helvetica,Arial,sans-serif;
+    background: red;
+    color: white;
+    padding: 16px 0;
+    font-size: 16px;
+    height: 32px;
+    max-width: initial;
+    display: block;
+    padding-left: 46px;
+  }
+.navbar2 a{
+    font-size: 40px;
+    color: white;
+    line-height: 22px;
+    font-family: Helvetica,Arial,sans-serif;
+    background: red;
+    margin-left: 10px;
+  }
+.navbar3{
+    border-top: 1px solid;
+    border-top-color: #DB7F7F;
+    background-color: red;
+    color: white;
+    justify-content: space-between;
+    font-family: Helvetica,Arial,sans-serif;
+    padding: 16px 0;
+    font-size: 16px;
+    height: 32px;
+    max-width: initial;
+    display: block;
+  }
+.navbar3 ul{
+    border-left-style: 1px solid white;
+    border-right-style: 1px solid white;
+  }
+.navbar3 li{
+    display: inline;
+  }
+.navbar3 a{
+    text-decoration: none;
+    color: white;
+    border-right: 1px solid white;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+.navbar4{
+    background-color: white;
+    padding-left: 16px;
+    margin-bottom: 5px;
+  }
+.navbar4 li{
+    display:inline
+  }
+.navbar4 a{
+    text-decoration: none;
+    color:darkgray;
+    border-right: 1px solid darkgray;
+    padding-right: 5px;
+    padding-left: 5px;
+  }
+.navbar4 a:hover{
+    text-decoration: underline;
+  }
+.topics{
+    color: darkgray;
+    border: 1px solid #DB7F7F;
+    font-weight: bold;
+    padding: 8px;
+    font-family: Helvetica,Arial,sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 10px white;
+  }
+.topics a:hover{
+    background-color: red;
+    color: white;
+  }
+.images{
+    position: relative;
+    width: 800px;
+  }
+.news{
+    color: white;
+    font-size: 35px;
+    display:flex;
+  }
+.news a:hover{
+    text-decoration: none;
+  }
+.h2 {
+    padding-top: 0px;
+    padding-bottom: 46px;
+    border-top: 2px solid #B80000;
+    border-bottom: 2px solid #B80000;
+    width: 800px;
+  }
